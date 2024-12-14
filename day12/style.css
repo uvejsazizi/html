@@ -1,0 +1,69 @@
+@font-face {
+    font-family:"winter selfie";
+    src: url(winter_selfie/Winter\ Selfie.ttf);
+}
+h1{
+    color: cyan;
+    letter-spacing: 20px;
+    word-spacing: 40px;   
+}
+p{
+    font-family:"winter selfie";
+    text-indent: 100px;
+    text-align: center;
+    background-color: fuchsia;
+}
+h2{
+    text-decoration: overline;
+    color: darkblue;
+}
+h3{
+    text-decoration: line-through;
+    color: darkviolet;
+
+}
+h4{
+  text-decoration: underline;
+  color: black;
+}
+.p1{
+    color: fuchsia;
+    background-color: black;
+    word-break: normal;
+    font-size: 30px;
+    
+}
+#p2{
+    font-style: normal;
+    color: darkgoldenrod;
+    background-color: chocolate;
+    font-size: 50px;
+    font-weight: normal;
+}
+#p3{
+font-style: italic;
+color: magenta;
+background-color: darkslateblue;
+font-size: 50px;
+font-weight: bold;
+}
+#p4{
+    font-style: oblique;
+    color: brown;
+    background-color: darkred;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: pink;  
+}
+a:active{
+    color: violet;
+}
