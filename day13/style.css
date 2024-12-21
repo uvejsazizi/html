@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to left, rgb(189, 79, 134) chocolate);
+}
+ol{
+    background-color: rgb(223, 168, 179);
+}
+ol li{
+   border-bottom: 1px solid gray;
+   padding: 10px;
+   margin-left: 30px;
+    
+}
+ul{
+    list-style-type: georgian;
+    border-bottom: 1px solid rgb(34, 7, 7);
+}
+ul li{
+    border-bottom: 1px solid black;
+}
+table{
+    /* border-collapse: collapse; */
+}
+td,th{
+    border: 1px solid hotpink;
+    padding: 5px;
+}
+tbody,tr:nth-child(odd){
+    background-color: wheat;
+}
+tbody tr:nth-child(even){
+    background-color: fuchsia;
+}
+div{
+    overflow: visible;
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    
+}
+table{
+    width: auto;
+    height: auto;
+}
