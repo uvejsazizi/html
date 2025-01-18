@@ -1,0 +1,46 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: brown;    
+}
+.active{
+    background-color: blue;
+}
+li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+}
+li ul li{
+    float: none;
+}
+li ul li a{
+    padding: 10px  16px;
+}
+li ul li a:hover{
+    background-color: antiquewhite;
+}
+li:hover >ul{
+    display: block;
+}
+li ul li ul{
+    left: 100%;
+    top: 0;
+}
