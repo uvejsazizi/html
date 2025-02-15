@@ -1,0 +1,130 @@
+div#translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: white;
+    background-color: darkblue;
+    transform: translate(100px,50px);
+    padding: 10px;
+}
+div#rotate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: white;
+    background-color: black;
+    transform: rotate(180deg);
+    padding: 10px;
+    margin-top: 100px;
+}
+div#scale{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: black;
+    background-color: palevioletred;
+    transform: scale(0.7,0.7);
+    padding: 10px;
+    margin-top: 100px;
+}
+div#scalex{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: black;
+    background-color: darkgreen;
+    transform: scaleX(2);
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+div#scaley{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: black;
+    background-color: lightblue;
+    transform: scaleY(2);
+    padding: 10px;
+    margin-top: 100px;
+    margin-top: 200px;
+}
+div#skewx{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: black;
+    background-color: crimson;
+    transform: skewX(-40deg);
+    padding: 10px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+div#skewy{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: black;
+    background-color: crimson;
+    transform: skewY(40deg);
+    padding: 10px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+div#rotatex{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: black;
+    background-color: rgb(96, 11, 117);
+    transform: rotateX(130deg);
+    padding: 10px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+div#rotatey{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: black;
+    background-color: rgb(20, 167, 159);
+    transform: rotateY(130deg);
+    padding: 10px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+div#rotatez{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px ;
+    color: black;
+    background-color: rgb(77, 236, 90);
+    transform: rotateZ(130deg);
+    padding: 10px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+div#transition{
+    width: 220px;
+    height: 220px;
+    background: red;
+    transition: background 3s, border-radius 5s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+}
+div#transition:hover{
+    background-color: aqua;
+    border-radius: 50%;
+}
+div#transition2{
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+    background: chartreuse;
+    transition:  .3s ease-in-out;
+}
+div#transition2:hover{
+    background: yellow;
+    transform: scale(1.3);
+    filter: grayscale(0);
+}
