@@ -1,7 +1,10 @@
-*{
-    background: url(photo\ 8.jpg);
-    
-    
+
+body {
+    background-image: url('photo\ 9.webp');
+    background-size: cover; /* Optional: Makes the background cover the entire page */
+    background-position: center; /* Optional: Centers the image */
+    background-repeat: no-repeat; /* Optional: Prevents the image from repeating */
+    margin-bottom: 800px;
 }
 
 #p1{
@@ -15,27 +18,60 @@
 
 
 
-nav ul li {
-    display:flex ;
-    padding: 6px 2px;
-}
-    
-nav ul li a {
-    text-decoration: none;
-    color: rgb(131, 39, 39);
-    background-color: rgb(202, 60, 60);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-radius: 2px;
-    transition: all;
-    margin-left: 20px;
-}
-
 header {
-    background-color: rgba(128, 128, 128, 0.308);
-    color: aliceblue;
-    padding: 1px 10px;
+    background-color: #771919; /* Dark background for the header */
+    padding: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+}
+
+ul {
+    list-style-type: none; /* Remove default list bullets */
+    display: flex;
+    gap: 30px; /* Space between list items */
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+a:hover {
+    color: #ff6600; /* Change color on hover */
+}
+
+/* Optional: Add some padding and border to make it look nicer */
+a {
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Make the navigation responsive on small screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    a {
+        padding: 15px 0;
+    }
+}
 h1{
     color: rgb(75, 12, 12);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -60,3 +96,7 @@ h3 {
 
 }
 
+footer{
+    background-color: red;
+    padding: 15px;
+}
