@@ -136,4 +136,70 @@ footer{
     box-shadow: 0 0 0 4px rgba(255, 102, 0, 0.4); /* Orange glow when the button is focused */
 }
 
+h3 {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    font-style: italic;
+    color: #444;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
 
+  img {
+    width: 220px;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: rotate(0deg) scale(1.03);
+  }
+
+  h2 {
+    font-size: 26px;
+    color: #444;
+    font-family: 'Georgia', serif;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;  /* Use a modern sans-serif font */
+    font-size: 50px;                        /* Set a large font size */
+    color: #222;                            /* Dark gray color for the text */
+    text-align: left;                       /* Align text to the left */
+    position: relative;                     /* For positioning the underline */
+    padding: 10px 0;                        /* Add some vertical padding */
+    letter-spacing: 1px;                    /* Slight letter spacing */
+}
+
+h1::after {
+    content: '';                            /* Empty content for the underline */
+    position: absolute;                     /* Position it relative to the h1 */
+    bottom: 0;                              /* Align it at the bottom */
+    left: 0;                                /* Align it to the left */
+    width: 100%;                            /* Full width underline */
+    height: 3px;                            /* Set the height of the underline */
+    background-color: #FF6347;              /* Tomato color for the underline */
+    transform: scaleX(0);                   /* Initially scale to 0 */
+    transform-origin: bottom right;         /* Animate from the right */
+    animation: underlineAnimation 0.5s ease-out forwards; /* Animation to reveal the underline */
+}
+
+@keyframes underlineAnimation {
+    0% {
+        transform: scaleX(0); /* Start with no underline */
+    }
+    100% {
+        transform: scaleX(1); /* Expand the underline to full width */
+    }
+}
+
+
+  
+  
